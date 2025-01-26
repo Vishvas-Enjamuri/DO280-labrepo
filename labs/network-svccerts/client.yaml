@@ -47,4 +47,3 @@ spec:
               - key: service-ca.crt
                 path: tls-ca-bundle.pem
           name: trusted-ca
-      name: trusted-ca
