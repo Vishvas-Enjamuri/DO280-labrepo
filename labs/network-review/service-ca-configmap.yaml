@@ -4,5 +4,5 @@ metadata:
   name: service-ca
   namespace: network-review
   annotations:
-    service.beta.openshift.io/inject-cabundle: "true"
+    service.beta.openshift.io/inject-cabundle: "true" 
 data: {}

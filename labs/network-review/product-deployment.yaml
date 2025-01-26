@@ -31,7 +31,7 @@ spec:
               scheme: HTTPS
           env:
             - name: CERT_CA
-              value: "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+              value: /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
             - name: TLS_ENABLED
               value: "true"
             - name: STOCK_URL
@@ -53,3 +53,4 @@ spec:
             items:
               - key: service-ca.crt
                 path: tls-ca-bundle.pem
+

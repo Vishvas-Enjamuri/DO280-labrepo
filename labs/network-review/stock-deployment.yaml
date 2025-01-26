@@ -34,7 +34,7 @@ spec:
               value: "true"
           volumeMounts:
             - name: stock-service-cert
-              mountPath: /etc/pki/stock
+              mountPath: /etc/pki/stock/
       volumes:
         - name: stock-service-cert
           secret:

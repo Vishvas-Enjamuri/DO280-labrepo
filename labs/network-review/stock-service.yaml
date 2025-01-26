@@ -9,7 +9,7 @@ spec:
   selector:
     app: stock
   ports:
-    - port: 443 
+    - port: 443
       targetPort: 8085
-      name: http
+      name: https
 
